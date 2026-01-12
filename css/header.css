@@ -33,5 +33,29 @@ nav {
 }
 .list-link li a {
   color: var(--text-secondary-color);
+  font-weight: var(--menu-text-weight);
+  font-size: 24px;
   text-decoration: none;
+}
+
+@media screen and (min-width:768px) {   
+.navegacao-menu{
+    margin-top: 0;
+    width: 467px;
+}
+.navegacao-menu label {
+    display: none;
+}
+.navegacao-menu nav{
+    display: block;
+}
+.navegacao-menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+.navegacao-menu li{
+    margin: 0;
+}
 }
