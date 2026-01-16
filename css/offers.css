@@ -21,11 +21,7 @@
   text-align: center;
 }
 .offers-cards .card header {
-  display: block;
-  position: static;
-  padding: 0;
   margin-bottom: 24px;
-  background: transparent;
 }
 .offers-cards .card header p {
   font-size: 20px;
