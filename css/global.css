@@ -40,24 +40,34 @@ body {
   font-family: "Montserrat";
   color: var(--text-primary-color);
 }
-
-.section-title h2{
+section {
+  width: 312px;
+  margin: 0 auto 88px;
+}
+section.hero{
+  width: 100%;
+  margin: 0;
+}
+.section-title{
+  margin: 0 auto 32px ;
+}
+.section-title h2 {
   font-size: 28px;
   font-weight: var(--titles-weight);
   margin: 0;
   text-align: center;
 }
 
-.section-title hr{
- width: 180px;
- height: 4px;
- background-color: var(--secondary-color);
- border: none;
- margin: 16px auto 32px;
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
 }
 
-.button{
-  width: 280px;
+.button {
+  min-width:280px;
   height: 64px;
   color: var(--text-secondary-color);
   font-weight: var(--titles-weight);
@@ -67,16 +77,28 @@ body {
   background-color: var(--secondary-color);
   border-radius: 16px;
   line-height: 64px;
+  text-align: center;
 }
 
-@media screen and (min-width:768px) {
-  .section-title h2{
+@media screen and (min-width: 768px) {
+  section {
+    width: 648px;
+  }
+  .section-title h2 {
     font-size: 32px;
   }
 }
 
-@media screen and (min-width:1024px) {
-  .button:hover{
+@media screen and (min-width: 1024px) {
+  section {
+    width: 900px;
+  }
+  .button:hover {
     background-color: var(--primary-color);
+  }
+}
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
   }
 }
