@@ -6,10 +6,7 @@
   margin-top: 24px;
   width: 100%;
 }
-.payments .content-container{
- display: flex;
- 
-}
+
 .payments .content-container .image-gallery .image.firsty {
   background: url(../img/bag.png) no-repeat;
   background-size: cover;
@@ -27,19 +24,19 @@
 .payments .content-container .image-gallery .image.colspan-2 {
   grid-column: span 2;
 }
-@media screen and (min-width:768px) {
-    
+@media screen and (min-width: 768px) {
 }
 
-@media screen and (min-width:1440px) {
-    .payments .content-container{
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    display: flex;
     justify-content: space-between;
-    }
-    .payments .content-container .text-content{
-        width: 360px;
-    }
-    .payments .content-container .image-gallery {
+  }
+  .payments .content-container .text-content {
+    width: 360px;
+  }
+  .payments .content-container .image-gallery {
     width: 790px;
-    }
-
+    margin: 0;
+  }
 }
