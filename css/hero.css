@@ -4,6 +4,17 @@
   background: url(../img/hero-mobile.png) no-repeat;
   background-size: cover;
 }
+.bottom-hero{
+  width: 100%;
+  margin: 0;
+}
+.bottom-hero .hero-img{
+  background: url(../img/Imagem\ pré\ rodapé\ 1.png) no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
 .hero h2 {
   padding: 88px 24px;
   margin: 0;
@@ -35,6 +46,9 @@
     padding: 88px 120px;
     font-size: 32px;
   }
+   .bottom-hero .hero-img{
+    height: 600px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -45,5 +59,8 @@
   hero h2{
     padding: 88px 160px;
     font-size: 32px;
+  }
+  .bottom-hero .hero-img{
+    height: 600px;
   }
 }
