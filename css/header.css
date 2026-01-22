@@ -43,6 +43,9 @@ nav {
   font-size: 24px;
   text-decoration: none;
 }
+.list-link li a.active{
+  text-decoration: underline;
+}
 
 @media screen and (min-width: 768px) {
   .navegacao-menu {

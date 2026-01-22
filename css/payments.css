@@ -24,7 +24,35 @@
 .payments .content-container .image-gallery .image.colspan-2 {
   grid-column: span 2;
 }
-@media screen and (min-width: 768px) {
+
+/*CSS pacotes de viagens */
+
+.payments .image-gallery.gallery-pacotes .image.firsty{
+background: url(../img/Montagem\ japão\ 1.png) no-repeat;
+background-size: cover;
+}
+.payments .image-gallery.gallery-pacotes .image.second{
+background: url(../img/Montagem\ japão\ 2.png) no-repeat;
+
+}
+.payments .image-gallery.gallery-pacotes .image.thirdy{
+background: url(../img/Montagem\ japão\ 3.png) no-repeat;
+
+}
+
+@media screen and (min-width: 768px) { /*media Screen pagoctes de viagens*/
+  .payments .image-gallery.gallery-pacotes .image.firsty{
+background: url(../img/Montagem\ japão\ 1\ tablet.png);
+background-size: cover;
+}
+.payments .image-gallery.gallery-pacotes .image.second{
+background: url(../img/Montagem\ japão\ 2\ tablet.png) no-repeat;
+background-size: cover;
+}
+.payments .image-gallery.gallery-pacotes .image.thirdy{
+background: url(../img/Montagem\ japão\ 3\ tablet.png) no-repeat;
+background-size: cover;
+}
 }
 
 @media screen and (min-width: 1440px) {
